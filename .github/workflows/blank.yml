@@ -7,7 +7,6 @@ env:
   DOCKER_USERNAME: ${{ vars.DOCKER_NAME }}
   DOCKER_PASSWORD: ${{ secrets.NEW_DOCKER_PASSWORD }}
   DOCKER_IMAGE: atharvarya12/my-firstdocker
-
 jobs:
   build-using-docker:
     runs-on: ubuntu-latest
